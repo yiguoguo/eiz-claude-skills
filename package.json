@@ -1,6 +1,6 @@
 {
   "name": "addon-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "根据 API 文档生成 Next.js 插件项目，可选自动部署到 Vercel",
   "type": "module",
   "main": "lib/index.js",
