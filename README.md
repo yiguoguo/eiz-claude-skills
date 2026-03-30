@@ -4,9 +4,13 @@
 
 ## 安装
 
+这是一个 Claude Code Skill，通过 Claude Code 的 plugin 系统安装：
+
 ```bash
-npm install -g addon-generator
+/plugin install addon-generator
 ```
+
+安装后即可使用 `/addon` 命令。
 
 ## 使用方式
 
