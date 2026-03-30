@@ -4,11 +4,7 @@
   "plugins": [
     {
       "name": "addon-generator",
-      "source": {
-        "source": "github",
-        "repo": "yiguoguo/eiz-addon-generator",
-        "ref": "master"
-      },
+      "source": "./skills/addon",
       "description": "根据 API 文档（OpenAPI/curl/自然语言）生成 Next.js 插件项目"
     }
   ]
