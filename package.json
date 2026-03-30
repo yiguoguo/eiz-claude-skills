@@ -1,0 +1,19 @@
+{
+  "name": "addon-generator",
+  "version": "1.0.0",
+  "description": "根据 API 文档生成 Next.js 插件项目，可选自动部署到 Vercel",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "lib",
+    "skills"
+  ]
+}
