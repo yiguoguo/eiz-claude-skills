@@ -1,6 +1,6 @@
 {
   "name": "addon-generator",
   "description": "根据Eiz API 文档（OpenAPI/curl/自然语言）生成 Next.js 插件项目，可选自动部署到 Vercel",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "author": { "name": "Yi Wang" }
 }
