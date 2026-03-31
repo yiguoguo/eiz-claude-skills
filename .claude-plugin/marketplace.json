@@ -1,5 +1,5 @@
 {
-  "name": "eiz-addon-generator",
+  "name": "eiz-plugins",
   "owner": { "name": "Yi Wang" },
   "plugins": [
     {
