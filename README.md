@@ -7,7 +7,8 @@
 这是一个 Claude Code Skill，通过 Claude Code 的 plugin 系统安装：
 
 ```bash
-/plugin install addon-generator
+/plugin marketplace add yiguoguo/eiz-addon-generator
+/plugin install addon-generator@yiguoguo/eiz-addon-generator
 ```
 
 安装后即可使用 `/addon-generator` 命令。
