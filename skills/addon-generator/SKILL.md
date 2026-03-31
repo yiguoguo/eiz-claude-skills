@@ -26,8 +26,10 @@ allowed-tools: ["Read", "Write", "Bash", "Grep", "Glob", "Task", "TaskCreate"]
 
 ## API 认证约束
 
-- Token 通过 URL Query 参数传递：`?token=xxx`
-- 请求接口时使用：`Authorization: Bearer <token>` Header
+- **页面访问**：用户通过 `?token=xxx` 传递 Token，例如 `https://xxx.vercel.app?token=abc`
+- **接口请求**：页面请求后端接口时，Token 同时通过以下方式传递：
+  - URL Query 参数：`?token=xxx`
+  - Header：`Authorization: Bearer <token>`
 - 如果接口无认证需求，则不使用 Token
 
 ## UI 风格约束
