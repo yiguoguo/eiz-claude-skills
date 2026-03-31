@@ -1,11 +1,19 @@
 {
-  "name": "eiz-plugins",
+  "name": "eiz-claude-skills",
   "owner": { "name": "Yi Wang" },
+  "metadata": {
+    "description": "Eiz 公司 Claude Code Skills",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "addon-generator",
-      "source": "./skills/addon-generator",
-      "description": "根据 API 文档（OpenAPI/curl/自然语言）生成 Next.js 插件项目"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/addon-generator"
+      ],
+      "description": "根据 API 文档（OpenAPI/curl/自然语言）生成 Next.js 页面"
     }
   ]
 }
