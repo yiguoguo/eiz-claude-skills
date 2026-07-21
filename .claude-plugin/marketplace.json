@@ -11,7 +11,8 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/addon-generator"
+        "./skills/addon-generator",
+        "./skills/work-polish"
       ],
       "description": "根据 API 文档（OpenAPI/curl/自然语言）生成 Next.js 页面"
     }
