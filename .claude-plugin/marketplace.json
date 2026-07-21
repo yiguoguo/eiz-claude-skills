@@ -15,8 +15,7 @@
       "skills": [
         "./skills/addon-generator",
         "./skills/work-polish",
-        "./skills/grill-me",
-        "./skills/nuwa"
+        "./skills/grill-me"
       ],
       "description": "根据 API 文档生成 lofko addon 页面（Next.js + Tailwind）"
     }
