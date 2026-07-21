@@ -14,7 +14,7 @@ Eiz 公司的 Claude Code 插件市场。
 
 ```bash
 /plugin marketplace add yiguoguo/eiz-claude-skills
-/plugin install addon-generator@eiz-claude-skills
+/plugin install eiz-claude-skills@eiz-claude-skills
 ```
 
 ## 使用

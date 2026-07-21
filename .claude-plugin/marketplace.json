@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "addon-generator",
+      "name": "eiz-claude-skills",
       "source": "./",
       "strict": false,
       "skills": [
