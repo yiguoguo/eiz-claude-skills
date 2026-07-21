@@ -12,9 +12,10 @@
       "strict": false,
       "skills": [
         "./skills/addon-generator",
-        "./skills/work-polish"
+        "./skills/work-polish",
+        "./skills/grill-me"
       ],
-      "description": "根据 API 文档（OpenAPI/curl/自然语言）生成 Next.js 页面"
+      "description": "根据 API 文档生成 lofko addon 页面（Next.js + Tailwind）"
     }
   ]
 }
