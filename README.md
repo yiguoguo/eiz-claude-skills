@@ -66,6 +66,18 @@
 /grill-me 接入微信支付
 ```
 
+---
+
+### `/nuwa` — 女娲 · Skill 造人术
+
+输入一个人名或话题，提取其思维框架、决策方式、表达风格，生成一个可运行的 perspective skill。别人用这个 skill 就能"像他一样思考问题"。
+
+```bash
+/nuwa 张一鸣
+/nuwa 查理芒格 --focus 投资决策
+/nuwa 价值投资 --type topic
+```
+
 ## 示例
 
 `examples/` 目录包含可直接作为 `/addon-generator` 输入的示例：
