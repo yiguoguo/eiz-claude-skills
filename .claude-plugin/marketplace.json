@@ -17,7 +17,7 @@
         "./skills/work-polish",
         "./skills/grill-me"
       ],
-      "description": "根据 API 文档生成 lofko addon 页面（Next.js + Tailwind）"
+      "description": "接口文档转页面 / 职场语言包装 / 需求拷问，三个实用 skill"
     }
   ]
 }
