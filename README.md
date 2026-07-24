@@ -74,6 +74,20 @@
 /grill-me 接入微信支付
 ```
 
+---
+
+### `/eiz-biz-query` — EIZ 业务数据查询
+
+收到业务数据查询需求时（如查客户、查订单、查物流等），先查知识库获取查询规范和表结构，再用 MySQL 工具执行查询。
+
+**核心规范：**
+- 所有查询只读（SELECT / SHOW / DESCRIBE）
+- WHERE 条件命中索引字段，大表禁止 JOIN
+- 明细查询带 LIMIT（默认 ≤50 条）
+- 状态码翻译成中文，敏感信息脱敏
+
+**前提：** 需要配置知识库检索工具（如 `knowledge_mcp_server-Retrieve_Documents`）和 MySQL 查询工具。
+
 ## 示例
 
 `examples/` 目录包含可直接作为 `/addon-generator` 输入的示例：

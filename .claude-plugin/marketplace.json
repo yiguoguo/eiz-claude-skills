@@ -10,14 +10,15 @@
       "name": "eiz-claude-skills",
       "source": "./",
       "strict": false,
-      "version": "1.3.0",
+      "version": "1.4.0",
       "author": { "name": "Yi Wang" },
       "skills": [
         "./skills/addon-generator",
         "./skills/work-polish",
-        "./skills/grill-me"
+        "./skills/grill-me",
+        "./skills/eiz-biz-query"
       ],
-      "description": "接口文档转页面 / 职场语言包装 / 需求拷问，三个实用 skill"
+      "description": "接口文档转页面 / 职场语言包装 / 需求拷问 / 业务查询，四个实用 skill"
     }
   ]
 }
